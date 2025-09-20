@@ -1,0 +1,20 @@
+/* пробую варіан 2 */
+* {
+   color: blue;
+}
+
+.conteiner-title {
+   color: #000
+}
+
+.conteiner p {
+   color: pink;
+}
+
+.list>li {
+   color: orangered;
+}
+
+ul ul>li {
+   color: darkkhaki;
+}
