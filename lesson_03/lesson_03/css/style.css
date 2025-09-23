@@ -1,0 +1,41 @@
+/* пробую варіан 2 */
+* {
+   color: blue;
+}
+
+.conteiner-title {
+   color: #000;
+}
+
+.conteiner p {
+   color: pink;
+}
+
+.list>li {
+   color: orangered;
+}
+
+ul ul>li {
+   color: darkkhaki;
+}
+
+.text-descr+p {
+   color: darkred;
+}
+
+.text-descr,
+.text-descr+p>span {
+   color: goldenrod;
+}
+
+#color {
+   color: hotpink;
+}
+
+[class*="da"] {
+   color: seagreen;
+}
+
+.title-last-text~p {
+   color: antiquewhite;
+}
