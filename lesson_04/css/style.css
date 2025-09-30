@@ -1,0 +1,73 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@1,900&display=swap');
+@import url('font.css');
+
+.header_text {
+   font-family: "Gotham", sans-serif;
+   text-align: center;
+   text-transform: capitalize;
+   letter-spacing: 10px;
+   font-size: 20px;
+   text-decoration: underline;
+}
+
+.font_1 {
+   font-family: Balsamiq Sans;
+   font-weight: 700;
+   color: blue;
+   text-decoration: underline;
+   font-size: 18px;
+   font-style: normal;
+}
+
+.font_2 {
+   font-family: Bitcount Single Ink;
+   font-weight: 200;
+   font-style: normal;
+   font-size: 14px;
+   text-decoration: line-through;
+   text-decoration-color: red;
+}
+
+.font_3 {
+   font-family: Playfair Display;
+   font-weight: 900;
+   font-style: italic;
+   color: blueviolet;
+   text-shadow: 2px 4px 3px #000;
+
+}
+
+.font_4 {
+   font-family: "Frutiger", sans-serif;
+   text-align: center;
+   font-size: 18px;
+   text-transform: uppercase;
+}
+
+.font_5 {
+   font-family: "Gotham", sans-serif;
+   text-align: center;
+   color: green;
+   font-size: 16px;
+   line-height: 1.25;
+   letter-spacing: 10px;
+   white-space: 5px;
+}
+
+.font_6 {
+   font-family: "Helvetica Neue", sans-serif;
+   text-align: right;
+   color: blue;
+   font-size: 13px;
+   text-decoration: overline;
+   text-transform: lowercase;
+}
+
+.footer_text {
+   font-size: 20px;
+   text-decoration: overline;
+   text-align: center;
+   text-shadow: -10px 3px 3px #000;
+
+}
