@@ -52,7 +52,7 @@
    font-size: 16px;
    line-height: 1.25;
    letter-spacing: 10px;
-   white-space: 5px;
+   white-space: nowrap;
 }
 
 .font_6 {
@@ -69,5 +69,6 @@
    text-decoration: overline;
    text-align: center;
    text-shadow: -10px 3px 3px #000;
+
 
 }
