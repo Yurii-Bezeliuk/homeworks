@@ -1,0 +1,90 @@
+@import url('reset.css');
+/* @import url('font.css'); */
+
+header,
+footer {
+   text-align: center;
+   padding: 20px;
+   background-color: aqua;
+}
+
+.hero {
+   background-image: url('../img/BGbanner.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   margin-bottom: 164px;
+}
+
+.conteiner {
+   width: 1390px;
+   margin: 0 auto;
+   padding: 114px 130px 110px 0;
+}
+
+.conteiner-block {
+   margin-left: auto;
+   max-width: 518px;
+
+
+}
+
+.sec-text {
+   color: #2f302c;
+   margin-bottom: 20px;
+   font-size: 20px;
+   font-family: "Lato", sans-serif;
+   font-weight: 700;
+   line-height: 28px;
+}
+
+.main-title {
+   color: #2f302c;
+   margin-bottom: 16px;
+   font-size: 96px;
+   font-family: "Montserrat", sans-serif;
+   font-weight: 800;
+   line-height: 100px;
+   text-transform: uppercase;
+}
+
+.main-title span {
+   font-weight: 700;
+}
+
+.blc-line {
+   margin-bottom: 36px;
+   width: 308px;
+   border: 1px solid #000;
+}
+
+.sec2-text {
+   color: #2f302c;
+   margin-bottom: 20px;
+   font-size: 20px;
+   font-family: "Lato", sans-serif;
+   font-weight: 700;
+   line-height: 28px;
+   text-transform: uppercase;
+}
+
+.text-info {
+   color: #7e7f7c;
+   font-size: 16px;
+   font-family: "Lato", sans-serif;
+   font-weight: 500;
+   line-height: 20px;
+}
+
+.item {
+   background-image: url('../img/Size=Medium.png');
+   background-repeat: no-repeat;
+   min-height: 32px;
+   padding-left: 45px;
+   color: #252b42;
+   font-size: 14px;
+   font-family: "Montserrat", sans-serif;
+   font-weight: 700;
+   line-height: 1.5;
+   margin-bottom: 15px;
+}
