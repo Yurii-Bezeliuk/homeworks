@@ -1,0 +1,138 @@
+@import url('reset.css');
+
+/* @import url('font.css'); */
+/* img {
+   width: 300px;
+   height: 300px;
+} */
+header,
+footer {
+   text-align: center;
+   padding: 30px;
+   background-color: #f0dac6;
+}
+
+.conteiner {
+   width: 1200px;
+   margin: 0 auto;
+   text-align: right;
+}
+
+.block_img1 {
+   display: inline-block;
+}
+
+.block-text1 {
+   display: inline-block;
+   width: 200px;
+   margin-right: 50px;
+}
+
+.block_img1 img {
+   width: 486px;
+   height: 647px;
+   border-radius: 33px 33px 33px 33px;
+}
+
+.block4,
+.block_img2 span,
+.text_block1 {
+   margin-bottom: 20px;
+   width: 100%;
+   text-align: left;
+   font-size: 22px;
+   text-transform: uppercase;
+   margin-right: 30px;
+   color: #BA936F;
+}
+
+.block_img2 {
+   text-align: start;
+   margin-bottom: 138px;
+
+}
+
+.block_img2 img {
+   border-radius: 33px 33px 33px 33px;
+   width: 600px;
+}
+
+.block_img2 span {
+   padding-left: 50px;
+}
+
+.block-block {
+   margin-bottom: 138px;
+   margin-top: 50px;
+}
+
+.block_img4,
+.block-block,
+.block_img2,
+.block_img3 {
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05), 0 8px 16px rgba(0, 0, 0, 0.08);
+   border-radius: 33px;
+}
+
+.block_img3 {
+   margin-bottom: 50px;
+}
+
+.block {
+   display: inline-block;
+
+}
+
+.beg1 {
+   width: 385px;
+}
+
+.imgbg {
+   width: 385px;
+   margin-top: 0;
+}
+
+.imgmdl {
+   width: 368px;
+   height: 368px;
+   margin-left: 36px;
+   margin-right: 41px;
+   vertical-align: top;
+}
+
+.imgrec {
+   width: 362px;
+   margin-top: 0;
+}
+
+.block_img3 .text_block1 {
+   text-align: center;
+}
+
+.block_img4 {
+   height: 800px;
+   margin-bottom: 50px;
+   text-align: start;
+
+}
+
+.block-png {
+   margin: 0 auto;
+   align-items: center;
+
+}
+
+.block-png::before {
+   content: ' ';
+   background-image: url('../img/webp/flover1x-left_3_11zon.webp');
+   background-repeat: no-repeat;
+   width: 300px;
+   height: 500px;
+   background-position: center center;
+   margin-left: -50px;
+}
+
+.block4 {
+   width: 200px;
+   margin: auto;
+}
