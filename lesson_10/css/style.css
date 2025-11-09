@@ -1,0 +1,198 @@
+@import url('reset.css');
+
+/* @import url('font.css'); */
+.wrapper {
+   position: relative;
+   min-height: 100%;
+   overflow: clip;
+}
+
+[class*="__container"] {
+   width: 1000px;
+   margin: 0 auto;
+}
+
+.menu__block {
+   text-align: center;
+   background-color: aqua;
+}
+
+.second-submenu__items:hover,
+.submenu__items:hover,
+.list__item:hover {
+   background-color: rgba(2, 5, 13, 0.088);
+}
+
+
+.list__item {
+   display: inline-block;
+   position: relative;
+   font-size: 20px;
+   padding: 15px;
+
+}
+
+.second-submenu__items,
+.submenu__items {
+   display: block;
+   position: relative;
+   font-size: 20px;
+   padding: 10px;
+
+}
+
+.picture {
+   position: sticky;
+   top: 0;
+}
+
+.second-submenu__items:hover .second-submenu__link,
+.submenu__items:hover .submenu__link-items,
+.list__item:hover .list__link {
+   color: red;
+   text-decoration: underline;
+}
+
+.submenu {
+   position: absolute;
+   top: 100%;
+   left: 0;
+   width: 100%;
+   visibility: hidden;
+   opacity: 0;
+   text-align: start;
+   background-color: aqua;
+}
+
+.list__item:hover .submenu {
+   visibility: visible;
+   opacity: 1;
+   z-index: 2;
+}
+
+.second-submenu {
+   position: absolute;
+   width: 100%;
+   text-align: center;
+   left: 100%;
+   top: 0;
+   visibility: hidden;
+   opacity: 0;
+   background-color: aquamarine;
+}
+
+
+.submenu__items:hover .second-submenu {
+   visibility: visible;
+   opacity: 1;
+   z-index: 2;
+}
+
+.menu--margin {
+   margin-bottom: 50px;
+}
+
+.picture__masks,
+.picture__eye,
+.picture__cleansers {
+   display: inline-block;
+   width: 251px;
+   position: relative;
+}
+
+.picture__eye {
+   margin: 0 119px;
+}
+
+.picture__text {
+   position: absolute;
+   color: #fff;
+   font-size: 28px;
+   font-family: "Playfair Display", serif;
+   font-weight: 400;
+}
+
+.picture__link {
+   color: #fff;
+   font-size: 17px;
+   font-family: "Playfair Display", serif;
+   font-weight: 400;
+   position: absolute;
+   bottom: 12px;
+   left: 105px;
+
+}
+
+.picture__link:hover {
+   color: #ffffffc6;
+   text-decoration: underline;
+}
+
+.picture__text-cleansers {
+   left: 63px;
+   top: 133px;
+}
+
+.picture__text-eye {
+   top: 133px;
+   left: 51px;
+}
+
+.picture__text-masks {
+   top: 133px;
+   left: 86px;
+}
+
+.picture__title {
+   text-align: center;
+   margin-bottom: 48px;
+   color: #000;
+   font-size: 20px;
+   font-family: "Playfair Display", serif;
+   font-weight: 400;
+}
+
+.picture__block {
+   margin-bottom: 77px;
+}
+
+.picture__btn {
+   width: 133px;
+   margin: 0 auto;
+   border: 1px solid #000;
+}
+
+.picture__btn:hover {
+   background-color: #f7f5f5;
+}
+
+.picture__link-btn {
+   padding: 9px 50px;
+   color: #000;
+   font-size: 14px;
+   font-family: "Playfair Display", serif;
+   font-weight: 400;
+   letter-spacing: 0;
+
+}
+
+.feed__list {
+   position: relative;
+   font-size: 32px;
+   padding-left: 45px;
+   margin-bottom: 15px;
+}
+
+.feed__list::before {
+   content: '';
+   background: url('../img/Size.png') 0 0 / 100% no-repeat;
+   width: 32px;
+   height: 32px;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.picture--margin {
+   margin-bottom: 100px;
+}
