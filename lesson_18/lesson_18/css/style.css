@@ -359,7 +359,7 @@ header {
    position: absolute;
    top: 0;
    translate: 6px -45%;
-   background-image: url('/img/right-arrow.webp');
+   background-image: url('../img/right-arrow.webp');
    background-position: center;
    background-repeat: no-repeat;
    width: 25px;
@@ -792,8 +792,6 @@ footer {
    color: #343434;
    font-size: 17px;
    font-style: normal;
-   font-family: "Montserrat", sans-serif;
-   font-weight: 400;
    line-height: 1.58;
    text-transform: uppercase;
 }
@@ -801,7 +799,7 @@ footer {
 .table td:nth-child(2) a::after {
    content: '';
    position: relative;
-   background-image: url('/img/arrow_up.svg');
+   background-image: url('../img/arrow_up.svg');
    background-repeat: no-repeat;
    background-position: center;
    width: 15px;
@@ -866,5 +864,77 @@ footer {
       width: 100%;
       max-width: 394px;
       aspect-ratio: 394/465;
+   }
+}
+
+.yoga-reverse,
+.schedule,
+.about-yoga {
+   position: relative;
+}
+
+@media(width>1300px) {
+   .about-yoga::before {
+      content: '';
+      position: absolute;
+      top: -250px;
+      right: -340px;
+      background-image: url("../img/flower_right.svg");
+      width: 500px;
+      height: 500px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      z-index: -1;
+
+
+
+
+   }
+
+   .about-yoga::after {
+      content: '';
+      position: absolute;
+      bottom: -150px;
+      left: -10px;
+      background-image: url("../img/flower_left.svg");
+      width: 500px;
+      height: 500px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      z-index: -1;
+
+
+
+   }
+
+   .yoga-reverse::before {
+      content: '';
+      position: absolute;
+      bottom: -250px;
+      right: -340px;
+      background-image: url("../img/flower_right.svg");
+      width: 500px;
+      height: 500px;
+      background-repeat: no-repeat;
+      background-size: contain;
+
+
+
+   }
+
+   .schedule::after {
+      content: '';
+      position: absolute;
+      top: -100px;
+      left: -20px;
+      background-image: url("../img/flower_left.svg");
+      width: 500px;
+      height: 500px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      z-index: -1;
+
+
+
    }
 }
