@@ -658,7 +658,10 @@ footer {
    width: 100%;
    max-width: 368px;
    aspect-ratio: 368/368;
-   margin-bottom: 12px;
+}
+
+.practice-types__img figcaption {
+   margin-top: 12px;
 }
 
 .practice-types__img--individual {
@@ -873,7 +876,7 @@ footer {
    position: relative;
 }
 
-@media(width>1300px) {
+@media(width>768px) {
    .about-yoga::before {
       content: '';
       position: absolute;
@@ -917,6 +920,7 @@ footer {
       height: 500px;
       background-repeat: no-repeat;
       background-size: contain;
+      z-index: -1;
 
 
 
